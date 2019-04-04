@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #F2F2F2;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 0.9em;
+    color:rgb(111,110,114);
+    max-width: 1920px;
+    background: white;
+    margin: auto;
+}
+
+
+/*Navbar*/
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 2em 0;
+}
+
+.logo img {
+    width: 55%;    
+    padding-left: 3em;
+}
+
+nav {
+    margin: 1em 0 0;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 1em 0 0;
+    font-size: 0.8em;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(111,110,114);
+    padding-left: 14px;
+}
+
+li a.active {
+    color: rgb(111,110,114);
+    border-bottom: 2px solid rgb(111,110,114);
+    font-weight: 300;
+}
+
+li a:hover {
+    color: #B6B6B6;
+}
+
+.icon-bar {
+   justify-content: center;
+}
+ 
+.icon-bar a i {
+    
+    width: 10%;
+    padding: 16px;
+    padding-left: 12px;
+    color:rgb(111,110,114);
+    font-size: 1.5em;
+  }
+  
+  .icon-bar i:hover {
+    color: rgb(111,110,114,0.5);
+  }
+  
+
+  /*Footer*/
+
+
+.container-fluid{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    
+}
+
+.row h5{
+    color:rgb(111,110,114);
+    font-size: 0.9em;
+
+}
+
+.row a{
+    text-decoration: none;
+    color: rgb(111,110,114,0.9);
+    font-size: 0.7em;
+    font-weight: 100;
+
+}
+
+.row p{
+    text-decoration: none;
+    color: rgb(111,110,114,0.9);
+    font-size: 0.7em;
+    font-weight: 100;
+}
+
+.row a:hover{
+    color: rgb(111,110,114);
+    border-bottom: 0.1em solid rgb(111,110,114);
+}
+
+.footer-copyright{
+    background-color: rgb(111,110,114); 
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.6em;
+}
+
+/*log-in*/
+
+.form-control {
+    min-height: 41px;
+    background: #fff;
+    box-shadow: none !important;
+    border-color: #e3e3e3;
+}
+.form-control:focus {
+    border-color:  rgb(111,110,114);
+}
+.form-control, .btn {        
+    border-radius: 2px;
+}
+.login-form, .registro-form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 100px 0 30px;		
+}
+.login-form form, .registro-form form{
+    color:  rgb(111,110,114);
+    border-radius: 2px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    background: rgba(111,110,114,0.2);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;	
+    position: relative;	
+}
+.login-form h2 ,.registro-form h2  {
+    font-size: 22px;
+    margin: 35px 0 25px;
+}
+.login-form .avatar, .registro-form .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -50px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background:  rgb(111,110,114);
+    padding: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.login-form .avatar img , .registro-form .avatar img {
+    width: 100%;
+}	
+.login-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+.login-form .btn, .registro-form .btn {        
+    font-size: 1em;
+    font-weight: bold;
+    background: rgb(111,110,114);
+    border: none;
+    margin-bottom: 20px;
+}
+.login-form .btn:hover, .registro-form .btn:hover, .login-form .btn:focus, .registro-form .btn:focus {
+    background:  rgba(111,110,114,0.7);
+}    
+.login-form a {
+    color:  rgb(111,110,114);
+    text-decoration: underline;
+    
+}
+.login-form a:hover {
+    text-decoration: none;
+}
+.login-form form a {
+    color:  rgb(111,110,114);
+    text-decoration: none;
+}
+.login-form form a:hover {
+    text-decoration: underline;
+}
